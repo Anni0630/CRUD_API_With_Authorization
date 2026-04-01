@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Administrator\\.gemini\\antigravity\\playground\\blazing-pinwheel\\ProductApi\\ProductApi\\wwwroot\\css\\dashboard.css",
+      "PackagePath": "staticwebassets\\css\\dashboard.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\.gemini\\antigravity\\playground\\blazing-pinwheel\\ProductApi\\ProductApi\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\.gemini\\antigravity\\playground\\blazing-pinwheel\\ProductApi\\ProductApi\\wwwroot\\js\\ui.js",
+      "PackagePath": "staticwebassets\\js\\ui.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ProductApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ProductApi.props",
+      "PackagePath": "build\\ProductApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ProductApi.props",
+      "PackagePath": "buildMultiTargeting\\ProductApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ProductApi.props",
+      "PackagePath": "buildTransitive\\ProductApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

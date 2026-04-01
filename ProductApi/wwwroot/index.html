@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Dashboard</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+
+    <div class="app-background"></div>
+
+    <main class="app-container">
+        
+        <!-- =======================
+             LOGIN / REGISTER VIEW
+        ======================== -->
+        <section id="auth-view" class="view glass-panel active">
+            <div class="auth-header">
+                <h2>Welcome Back</h2>
+                <p>Sign in to manage your products</p>
+            </div>
+            
+            <form id="auth-form">
+                <!-- Registration only fields -->
+                <div class="form-group register-only hidden">
+                    <label for="reg-username">Username</label>
+                    <input type="text" id="reg-username" placeholder="johndoe">
+                </div>
+
+                <div class="form-group">
+                    <label for="auth-email">Email</label>
+                    <input type="email" id="auth-email" required placeholder="name@example.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="auth-password">Password</label>
+                    <input type="password" id="auth-password" required placeholder="••••••••">
+                </div>
+
+                <div id="auth-error" class="error-msg hidden"></div>
+
+                <button type="submit" id="auth-submit-btn" class="btn btn-primary w-100 mt-2">Sign In</button>
+            </form>
+
+            <div class="auth-footer">
+                <span id="auth-toggle-text">Don't have an account? </span>
+                <a href="#" id="auth-toggle-link">Register here</a>
+            </div>
+            
+            <div class="test-creds">
+                <small><strong>Test Admin:</strong> admin@example.com / Admin@123</small><br>
+                <small><strong>Test User:</strong> user1@example.com / User@123</small>
+            </div>
+        </section>
+
+
+        <!-- =======================
+             DASHBOARD VIEW
+        ======================== -->
+        <section id="dashboard-view" class="view hidden">
+            <header class="dashboard-header glass-panel">
+                <div class="header-left">
+                    <i data-lucide="box" class="logo-icon"></i>
+                    <h2>Product<span class="text-gradient">Hub</span></h2>
+                </div>
+                <div class="header-right">
+                    <span id="user-info-badge" class="badge"></span>
+                    <button id="logout-btn" class="btn btn-icon btn-ghost" title="Logout">
+                        <i data-lucide="log-out"></i>
+                    </button>
+                </div>
+            </header>
+
+            <div class="dashboard-controls glass-panel">
+                <div class="search-box">
+                    <i data-lucide="search"></i>
+                    <input type="text" id="search-input" placeholder="Search products...">
+                </div>
+                <button id="btn-add-product" class="btn btn-primary btn-with-icon admin-only hidden">
+                    <i data-lucide="plus"></i> New Product
+                </button>
+            </div>
+
+            <div class="product-grid-container glass-panel">
+                <div id="loading-overlay" class="loading-overlay hidden">
+                    <div class="spinner"></div>
+                </div>
+                
+                <table class="product-table">
+                    <thead>
+                        <tr>
+                            <th>#ID</th>
+                            <th>Name</th>
+                            <th>Description</th>
+                            <th>Price</th>
+                            <th class="text-right admin-only hidden">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="product-tbody">
+                        <!-- Products injected here -->
+                    </tbody>
+                </table>
+
+                <div class="pagination-controls">
+                    <span id="page-info">Page 1 of 1</span>
+                    <div class="pagination-buttons">
+                        <button id="btn-prev-page" class="btn btn-ghost" disabled>
+                            <i data-lucide="chevron-left"></i> Prev
+                        </button>
+                        <button id="btn-next-page" class="btn btn-ghost" disabled>
+                            Next <i data-lucide="chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- =======================
+         MODAL: ADD/EDIT PRODUCT
+    ======================== -->
+    <div id="product-modal" class="modal-backdrop hidden">
+        <div class="modal glass-panel">
+            <div class="modal-header">
+                <h3 id="modal-title">Add Product</h3>
+                <button id="btn-close-modal" class="btn btn-icon btn-ghost"><i data-lucide="x"></i></button>
+            </div>
+            <div class="modal-body">
+                <div id="modal-error" class="error-msg hidden"></div>
+                <form id="product-form">
+                    <input type="hidden" id="prod-id">
+                    <div class="form-group">
+                        <label for="prod-name">Name</label>
+                        <input type="text" id="prod-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="prod-price">Price ($)</label>
+                        <input type="number" step="0.01" min="0.01" id="prod-price" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="prod-desc">Description (Optional)</label>
+                        <textarea id="prod-desc" rows="3"></textarea>
+                    </div>
+                    <div class="modal-actions">
+                        <button type="button" id="btn-cancel-modal" class="btn btn-ghost">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Save Product</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- UI Logic -->
+    <script src="js/ui.js"></script>
+</body>
+</html>
