@@ -77,7 +77,7 @@ ProductApi/
 
 ```bash
 # Navigate to the project folder
-cd ProductApi/ProductApi
+cd CRUD_API_With_Authorization/ProductApi
 
 # Restore packages
 dotnet restore
