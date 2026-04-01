@@ -1,15 +1,15 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Administrator\\.gemini\\antigravity\\playground\\blazing-pinwheel\\ProductApi\\ProductApi\\wwwroot\\css\\dashboard.css",
+      "Id": "C:\\Users\\Administrator\\CRUD_API_With_Authorization\\ProductApi\\wwwroot\\css\\dashboard.css",
       "PackagePath": "staticwebassets\\css\\dashboard.css"
     },
     {
-      "Id": "C:\\Users\\Administrator\\.gemini\\antigravity\\playground\\blazing-pinwheel\\ProductApi\\ProductApi\\wwwroot\\index.html",
+      "Id": "C:\\Users\\Administrator\\CRUD_API_With_Authorization\\ProductApi\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\Administrator\\.gemini\\antigravity\\playground\\blazing-pinwheel\\ProductApi\\ProductApi\\wwwroot\\js\\ui.js",
+      "Id": "C:\\Users\\Administrator\\CRUD_API_With_Authorization\\ProductApi\\wwwroot\\js\\ui.js",
       "PackagePath": "staticwebassets\\js\\ui.js"
     },
     {

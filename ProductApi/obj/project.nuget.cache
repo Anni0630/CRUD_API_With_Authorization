@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XxfQtDU55081XQfpxrjJ4sXwOQ5bgTI1sfPop+Wb6CokqWX+LqJMlyTt8QvivaUS6X2Nt5G4RtRQJQXKnFlG/A==",
+  "dgSpecHash": "wOUAfwEQVmxWoZreXKog9Cfx7jY0zRCfEpn7zL79YWnfG/VJOWQgVhzRkYxBm8xQ17NHnMfLHDNwqdgdolQtXg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\.gemini\\antigravity\\playground\\blazing-pinwheel\\ProductApi\\ProductApi\\ProductApi.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\CRUD_API_With_Authorization\\ProductApi\\ProductApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.0\\microsoft.aspnetcore.authentication.jwtbearer.8.0.0.nupkg.sha512",

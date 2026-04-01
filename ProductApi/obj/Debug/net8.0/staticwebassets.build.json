@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pbkMXUYY6z1yUNnvZJsr0ig5iTRXzwI0cSUM/rwgJ1I=",
+  "Hash": "xkS15gIzdfSTR4SIfB6nZo1rU/nRGmJbVVBi2TKD1NI=",
   "Source": "ProductApi",
   "BasePath": "_content/ProductApi",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "ProductApi\\wwwroot",
       "Source": "ProductApi",
-      "ContentRoot": "C:\\Users\\Administrator\\.gemini\\antigravity\\playground\\blazing-pinwheel\\ProductApi\\ProductApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\CRUD_API_With_Authorization\\ProductApi\\wwwroot\\",
       "BasePath": "_content/ProductApi",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Administrator\\.gemini\\antigravity\\playground\\blazing-pinwheel\\ProductApi\\ProductApi\\wwwroot\\css\\dashboard.css",
+      "Identity": "C:\\Users\\Administrator\\CRUD_API_With_Authorization\\ProductApi\\wwwroot\\css\\dashboard.css",
       "SourceId": "ProductApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Administrator\\.gemini\\antigravity\\playground\\blazing-pinwheel\\ProductApi\\ProductApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\CRUD_API_With_Authorization\\ProductApi\\wwwroot\\",
       "BasePath": "_content/ProductApi",
       "RelativePath": "css/dashboard.css",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\css\\dashboard.css"
     },
     {
-      "Identity": "C:\\Users\\Administrator\\.gemini\\antigravity\\playground\\blazing-pinwheel\\ProductApi\\ProductApi\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\Administrator\\CRUD_API_With_Authorization\\ProductApi\\wwwroot\\index.html",
       "SourceId": "ProductApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Administrator\\.gemini\\antigravity\\playground\\blazing-pinwheel\\ProductApi\\ProductApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\CRUD_API_With_Authorization\\ProductApi\\wwwroot\\",
       "BasePath": "_content/ProductApi",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\Administrator\\.gemini\\antigravity\\playground\\blazing-pinwheel\\ProductApi\\ProductApi\\wwwroot\\js\\ui.js",
+      "Identity": "C:\\Users\\Administrator\\CRUD_API_With_Authorization\\ProductApi\\wwwroot\\js\\ui.js",
       "SourceId": "ProductApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Administrator\\.gemini\\antigravity\\playground\\blazing-pinwheel\\ProductApi\\ProductApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\CRUD_API_With_Authorization\\ProductApi\\wwwroot\\",
       "BasePath": "_content/ProductApi",
       "RelativePath": "js/ui.js",
       "AssetKind": "All",
